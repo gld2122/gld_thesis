@@ -1,5 +1,8 @@
 # GUIDING QUESTIONS (IN PROGRESS)
 
+* How has electronic recordkeeping impacted individual and family control over
+  naming practices?
+
 * Why did the US not adopt a federal langauge in the Constitution nor in the
   years that followed?
 * What factors predict the adoption of state language laws?
@@ -10,5 +13,3 @@
   regulation?
 * How have non-native English speakers responded to the Official English
   movement?
-* How can we read government discourse as an implicit statement of linguistics
-  politics?
