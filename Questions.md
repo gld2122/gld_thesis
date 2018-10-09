@@ -1,7 +1,7 @@
 # GUIDING QUESTIONS (IN PROGRESS)
 
-* How has electronic recordkeeping impacted individual and family control over
-  naming practices?
+* How has electronic recordkeeping impacted parental control over naming
+  practices?
 
 * Why did the US not adopt a federal langauge in the Constitution nor in the
   years that followed?
