@@ -15,13 +15,18 @@ allowed" [Larson11]. It is notable that two California state parks indeed
 include two such characters (Año Nuevo State Park and Montaña de Oro State
 Park).
 
+### 2014-AB-2528
+
 A 2014 bill in the California State Assembly (AB-2528) attempted to rectify the
 situation with regards to birth certificates and licenses issued by the state
 DMV, but this bill stalled in the Appropriations Committee when high price tags
 relating to IT upgrades were attached.
 
-2017 bill (AB-82) actually passed both houses of the legislature but was vetoed
-by Governor Brown, again because of the high price tag.
+### 2017-AB-82
+
+The issue was resurrected in 2017 with the bill AB-82 sponsored by Jose Medina,
+which actually passed both houses of the legislature but was vetoed by Governor
+Brown, again because of the high price tag.
 
 ## Massachusetts
 

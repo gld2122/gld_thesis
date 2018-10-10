@@ -1,7 +1,11 @@
 # GUIDING QUESTIONS (IN PROGRESS)
 
-* How has electronic recordkeeping impacted parental control over naming
+* How has digital recordkeeping impacted parental control over naming
   practices?
+* How can we find the correct balance between personal liberty and
+  administrative feasability?
+* How accurate are the cost estimates provided by the California government
+  agencies regarding the cost of an IT transition?
 
 * Why did the US not adopt a federal langauge in the Constitution nor in the
   years that followed?
