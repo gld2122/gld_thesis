@@ -1,10 +1,9 @@
-Anglo-American law generally holds the naming of a child to be the right and
+American law generally holds the naming of a child to be the right and
 responsibility of the parents. In many American states, however, this right is
-abridged with regard to the inclusion of diacritical marks, which laws
-[Larson11] investigated in his article. permitted by the Office of Vital
-Statistics to add a diacritical mark (eg María) to the name of a child born in
-the state. Such states include California, Massachusetts, New Hampshire, and
-Kansas.
+abridged with reference to diacritical marks, a common feature in many languages
+around the world. [Larson11] investigates this in his study of American naming
+law, finding states with such rules to include California, Massachusetts, New
+Hampshire, and Kansas:
 
 ## California
 
@@ -12,13 +11,23 @@ A handbook provided by the California Office of Vital Records instructs county
 clerks that baby names may contain only "the 26 alphabetical characters of the
 English language with appropriate punctuation if necessary" and that “no
 pictographs, ideograms, diacritical marks” (including “é,” “ñ,” and “ç”) are
-allowed" [Larson11].
+allowed" [Larson11]. It is notable that two California state parks indeed
+include two such characters (Año Nuevo State Park and Montaña de Oro State
+Park).
+
+A 2014 bill in the California State Assembly (AB-2528) attempted to rectify the
+situation with regards to birth certificates and licenses issued by the state
+DMV, but this bill stalled in the Appropriations Committee when high price tags
+relating to IT upgrades were attached.
+
+2017 bill (AB-82) actually passed both houses of the legislature but was vetoed
+by Governor Brown, again because of the high price tag.
 
 ## Massachusetts
 
 In Massachusetts, the “characters have to be on the standard american [sic]
 keyboard. So dashes and apostrophes are fine, but not accent marks and the
-such.” [Larson11]
+such”. [Larson11]
 
 ## New Hampshire
 
