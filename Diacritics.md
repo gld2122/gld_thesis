@@ -1,9 +1,11 @@
 American law generally holds the naming of a child to be the right and
-responsibility of the parents. In many American states, however, this right is
-abridged with reference to diacritical marks, a common feature in many languages
-around the world. [Larson11] investigates this in his study of American naming
-law, finding states with such rules to include California, Massachusetts, New
-Hampshire, and Kansas:
+responsibility of the parents, while certainly leaving open the door for
+regulation of edge cases, such as "Ghoul Nipple", "Legend Belch",
+"Brfxxccxxmnpcccclllmmnprxvclmnckssqlbb11116", and "". In many American states,
+however, this right is abridged with reference to diacritical marks above
+letters, hardly an edge case in many languages around the world. [Larson11]
+investigates this in his study of American naming law, finding states with such
+rules to include California, Massachusetts, New Hampshire, and Kansas:
 
 ## California
 
@@ -17,10 +19,18 @@ Park).
 
 ### 2014-AB-2528
 
-A 2014 bill in the California State Assembly (AB-2528) attempted to rectify the
-situation with regards to birth certificates and licenses issued by the state
-DMV, but this bill stalled in the Appropriations Committee when high price tags
-relating to IT upgrades were attached.
+A 2014 bill in the California State Assembly sponsored by Nancy Skinner
+(AB-2528) attempted to rectify the situation with regards to birth certificates
+and driver's licenses. The bill would have "required the State Registrar to
+ensure that diacritical marks on English letters are properly recorded on birth
+certificates, death certificates, certificates of fetal death, and marriage
+licenses, including, but not limited to, accents, tildes, graves, umlauts, and
+cedillas". This bill stalled in the Appropriations Committee when the
+Departments of Public Health and Motor Vehicles, as well as the California
+Secretary of State's office, predicted multi-million dollar price tags relating
+to IT upgrades, noting that the DMV's software could not "even accept lower-case
+letters". For this same reason the bill was opposed by the County Recorder's
+Association of California.
 
 ### 2017-AB-82
 
