@@ -22,11 +22,40 @@ scheme for Cyrilic and Arabic characters which allows nearly lossless recovery
 of the original form from the highly schematic MRZ specification. There is even
 a sample Python program for converting from the MRZ to Unicode Arabic.
 
+\subsection{Latin}
+
+In the ICAO's recommendation, a distinction is made regarding the relative
+salience of diacritical marks; those such as the acute or grave accents over
+vowels are simply eliminated in the MRZ. However, they provide methods of
+encoding more salient characters such as the German umlaut vowels (ä,ö,ü) or the
+Spanish tilde ñ.
+
+So the name "Térèsa Cañón" would become CANXXON<<TERESA in the MRZ. Likewise,
+"Wilhelm Furtwängler" would become FURTWAENGLER<<WILHELM. (b.4.2) It would not
+be difficult to expand the escape sequence system in order to represent
+additional diacritical marks.
+
+\subsection{Cyrillic}
+
+The ICAO transcription system permits a one-to-one transcription between the
+machine-readable representation and the original language. The system even
+recognizes the different values that a Cyrillic glyph might take in various
+languages. For example the letter Ю is transliterated as "IU", unless it is the
+first character of a Ukrainian name, in which case "YU" is permitted. Likewise
+for Щ; this is SHCH, except in Bulgarian, where it is SHT.
+
 \subsection{Arabic}
 
-For example, the Arabic name ابو بكر محمد بن زكريا الرازي would be rendered in the MRZ:
+For example, the Arabic name
 
-ABW<BKR<MXHMD<BN<ZKRYA<ALRAZY
+\arfont{
+ابو بکر محمد بن زکریا الرازی
+}
+
+\rmfamily
+would be rendered in the MRZ as:
+
+ABW<BKR<MXHMD<<BN<ZKRYA<ALRAZY
 
 While this looks almost incomprehensible when read by a human, the use of X as
 an escape character allows a one-to-one transliteration back into the original
@@ -34,13 +63,3 @@ script. More examples below:
 
 \includegraphics{../Articles/9309.3-appendix-b.5.9.png}
 
-\subsection{Latin}
-
-In the case of Roman script languages a distinction can be made regarding the
-salience of diacritical marks. In the ICAO's recommendation, diacritics such as
-the acute or grave accents over vowels are simply eliminated in the MRZ.
-However, they provide methods of encoding more salient characters such as the
-German umlaut vowels (ä,ö,ü) or the Spanish tilde ñ.
-
-So the name "Térèsa Cañón" would become CANXXON<<TERESA in the MRZ. Likewise,
-"Wilhelm Furtwängler" would become FURTWAENGLER<<WILHELM. (b.4.2)
