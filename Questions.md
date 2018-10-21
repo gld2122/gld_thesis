@@ -2,7 +2,7 @@
 
 * How has digital recordkeeping impacted parental control over naming
   practices?
-* How can we find the correct balance between personal liberty and
+* How can we find the correct balance between cultural expression and
   administrative feasability?
 * How accurate are the cost estimates provided by the California government
   agencies regarding the cost of an IT transition?
