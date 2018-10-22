@@ -1,65 +1,95 @@
 \section{Passports}
 
-The standard protocol for machine-readable travel documents is Document 9309
-issued by the International Civil Aviation Organization. Since all countries
-must operate on shared standard, it is necessary to forge a compromise between
-cultural openness and international security. The ICAO-9309 standard gives
-significant flexibility to the inclusion of national characters.
+The standard protocol governing machine-readable travel documents (MRTD) is
+Document 9309 issued by the International Civil Aviation Organization
+\parencite{ICAO9309}. Since all countries must operate on a shared standard, the
+diplomatic community has forged a compromise between cultural diversity and
+international security. The 9309 standard provides sufficient flexibility to
+adapt to the wide variety of languages and scripts employed worldwide.
 
-The passport data page is divided into two sections: the Visual Inspection Zone
-(VIZ) and the Machine Readable Zone (MRZ). Countries may fill the required
-fields of the VIZ however they desire in the national language, provided a
-transcription or translation is also provided into English, Spanish, or French.
-Thus compliant passports do not per se coax a country toward the adoption of
-standard alphabets while still allowing international cooperation.
+A 9309-compliant MRTD data page is divided into two sections: the Visual
+Inspection Zone (VIZ) and the Machine Readable Zone (MRZ).
 
-In the Machine Readable Zone, a transcription into the organization's approved
-ASCII subset (0-9, A-Z, <) is required, for the purpose of machine recognition.
+\subsection{Visual Inspection Zone}
+
+The top third of the data page is intended for the review of border officials at
+the time of entry. Countries may populate the required VIZ fields as desired in
+the state's national language, provided a transcription or translation is
+provided into English, Spanish, or French. Thus, modernized passports do not
+\textit{per se} coax a country toward the adoption of standard alphabets;
+however, they do ensure effcient intercommunication in the world's
+\textit{scripta franca} the Latin alphabet.
+
+\subsection{Machine Readable Zone}
+
+In contrast, the content of the Machine Readable Zone is highly controlled. The
+only characters allowed in the two lines of the MRZ are those belonging to a
+defined ASCII subset: (0-9, A-Z, and <). Moreover, these characters must be
+printed in the typeface OCR-B (OCR=Optical Character Recognition) using
+character and line spacings strictly defined in the 9309 standard. The adherence
+to these guidelines allows for unambiguous machine recognition.
+
+\includegraphics{subtex/9309.4.3.2.4.png}
+
 For Latin alphabet languages, most characters containing diacritics simply have
-the mark dropped, although some characters have recommended control sequences to
+the mark dropped, although some characters have recommended encodings to
 losslessly transliterate the character. The document spells out a more extensive
 scheme for Cyrilic and Arabic characters which allows nearly lossless recovery
 of the original form from the highly schematic MRZ specification. There is even
 a sample Python program for converting from the MRZ to Unicode Arabic.
 
-\subsection{Latin}
+\subsubsection{Latin}
 
-In the ICAO's recommendation, a distinction is made regarding the relative
-salience of diacritical marks; those such as the acute or grave accents over
-vowels are simply eliminated in the MRZ. However, they provide methods of
-encoding more salient characters such as the German umlaut vowels (ä,ö,ü) or the
-Spanish tilde ñ.
+The ICAO tries to account for the varying importance of diacritical marks in
+Latin-based scripts. Those such as the acute or grave accents, which appear over
+vowels mainly for the purpose of clarifying pronunciation, are simply eliminated
+in the MRZ. However, other characters receive recommended encoding methods These
+are the more "salient" diacritic characters, such as the German umlauts (ä, ö,
+ü) or the Spanish ñ, which in their respective languages are considered separate
+letters, rather than a variation on the unaccented form. The following table
+shows the special encodings recommended for European diacritics; all other
+characters simply have the mark dropped:
 
-So the name "Térèsa Cañón" would become CANXXON<<TERESA in the MRZ. Likewise,
-"Wilhelm Furtwängler" would become FURTWAENGLER<<WILHELM. (b.4.2) It would not
-be difficult to expand the escape sequence system in order to represent
-additional diacritical marks.
+\begin{tabular}{l|l|l|l}
+\textbf{Unicode} & \textbf{National Character} & \textbf{Description} &
+\textbf{Recommended transliteration} \\
+00C4 & Ä & A diaeresis & AE or A \\
+00C5 & Å & A ring above & AA or A \\
+00C6 & Æ & ligature AE & AE \\
+00D1 & Ñ & N tilde & N or NXX \\
+00D6 & Ö & O diaeresis & OE or O \\
+00D8 & Ø & O stroke & OE \\
+00DC & Ü & U diaeresis & UE or UXX or U \\
+00DE & Þ & Thorn (Iceland) & TH \\
+00DF & ß & double S (Germany) & SS \\
+0132 & Ĳ & ligature IJ (Netherlands) & IJ \\
+0152 & Œ & ligature OE & OE \\
+\end{tabular} (\parencite{ICAO9303} 3.6.A)
 
-\subsection{Cyrillic}
+The name "Térèsa Cañón" would become CANXXON<<TERESA in the MRZ. The ñ is
+encoded in the MRZ, while no distinction is made of the é or è. Likewise, the
+German name "Wilhelm Furtwängler" would become FURTWAENGLER<<WILHELM (ä becomes
+AE). (b.4.2) Although it leaves a large set of European characters
+unrepresented, it would not be difficult to expand the escape sequence system to
+represent additional diacritical marks. (An interesting edge case would be a
+Spanish traveller named José Nuñenxx.)
 
-The ICAO transcription system permits a one-to-one transcription between the
-machine-readable representation and the original language. The system even
-recognizes the different values that a Cyrillic glyph might take in various
-languages. For example the letter Ю is transliterated as "IU", unless it is the
-first character of a Ukrainian name, in which case "YU" is permitted. Likewise
-for Щ; this is SHCH, except in Bulgarian, where it is SHT.
+\subsubsection{Cyrillic}
 
-\subsection{Arabic}
+The ICAO transcription system for Cyrillic characters permits a nearly
+one-to-one transliteration between the MRZ and the name in the original
+language. The system recognizes the different values that a Cyrillic glyph might
+take in various languages. For example the letter Ю is transliterated as "IU",
+unless it is the first character of a Ukrainian name, in which case "YU" is
+permitted. Likewise for Щ; this is SHCH, except in Bulgarian, where it is SHT.
 
-For example, the Arabic name
+\subsubsection{Arabic}
 
-\arfont{
-ابو بکر محمد بن زکریا الرازی
-}
+For example, the Arabic name {\arfont ابو بكر محمد بن زكريا الرازي} would be
+rendered in the MRZ as ABW<BKR<MXHMD<<BN<ZKRYA<ALRAZY.
 
-\rmfamily
-would be rendered in the MRZ as:
+Although the name looks almost incomprehensible to a human, the weird encoding
+actually allows the one-to-one mapping between the MRZ and the original Arabic
+name. See more examples in the figure below:
 
-ABW<BKR<MXHMD<<BN<ZKRYA<ALRAZY
-
-While this looks almost incomprehensible when read by a human, the use of X as
-an escape character allows a one-to-one transliteration back into the original
-script. More examples below:
-
-\includegraphics{../Articles/9309.3-appendix-b.5.9.png}
-
+\includegraphics{subtex/9309.3-appendix-b.5.9.png}
