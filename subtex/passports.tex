@@ -1,24 +1,25 @@
 \section{Passports}
 
-The standard protocol governing machine-readable travel documents (MRTD) is
-Document 9309 issued by the International Civil Aviation Organization
-\parencite{ICAO9309}. Since all countries must operate on a shared standard, the
-diplomatic community has forged a compromise between cultural diversity and
-international security. The 9309 standard provides sufficient flexibility to
-adapt to the wide variety of languages and scripts employed worldwide.
+The protocol governing machine-readable travel documents (MRTD) is Document
+9309, issued by the International Civil Aviation Organization
+\parencite{ICAO9309}. These standards define the common form that all passports
+must take to ensure interoperability. Since all states must operate on a shared
+standard, the diplomatic community has forged a compromise between cultural
+diversity and international security; the 9309 standard provides sufficient
+flexibility to accommodate the diverse languages and scripts used worldwide.
 
 A 9309-compliant MRTD data page is divided into two sections: the Visual
 Inspection Zone (VIZ) and the Machine Readable Zone (MRZ).
 
 \subsection{Visual Inspection Zone}
 
-The top third of the data page is intended for the review of border officials at
-the time of entry. Countries may populate the required VIZ fields as desired in
-the state's national language, provided a transcription or translation is
-provided into English, Spanish, or French. Thus, modernized passports do not
-\textit{per se} coax a country toward the adoption of standard alphabets;
+The Visual Inspection Zone, consisting of the top two-thirds of the passport's
+data page is designed for inspection by border officials at the point of entry.
+States may populate the required VIZ fields in their official language provided
+a translation is provided into English, Spanish, or French. Modernized passports
+do not \textit{per se} coax a country toward the adoption of standard alphabets;
 however, they do ensure effcient intercommunication in the world's
-\textit{scripta franca} the Latin alphabet.
+\textit{scripta franca}, the Latin alphabet.
 
 \subsection{Machine Readable Zone}
 
@@ -31,12 +32,13 @@ to these guidelines allows for unambiguous machine recognition.
 
 \includegraphics{subtex/9309.4.3.2.4.png}
 
-For Latin alphabet languages, most characters containing diacritics simply have
-the mark dropped, although some characters have recommended encodings to
-losslessly transliterate the character. The document spells out a more extensive
-scheme for Cyrilic and Arabic characters which allows nearly lossless recovery
-of the original form from the highly schematic MRZ specification. There is even
-a sample Python program for converting from the MRZ to Unicode Arabic.
+In the Latin alphabet, most characters with diacritical marks simply have the
+mark dropped; some characters, however, do have special encodings to losslessly
+transliterate the character. The document provides a more extensive scheme for
+the Cyrilic and Arabic scripts, which allows nearly lossless recovery of the
+original form from the MRZ content. They even provide a sample Python program
+for converting from the MRZ name to Unicode Arabic (\parencite{ICAO9309}
+(3.B.7.1).
 
 \subsubsection{Latin}
 
@@ -64,7 +66,7 @@ characters simply have the mark dropped:
 00DF & ß & double S (Germany) & SS \\
 0132 & Ĳ & ligature IJ (Netherlands) & IJ \\
 0152 & Œ & ligature OE & OE \\
-\end{tabular} (\parencite{ICAO9303} 3.6.A)
+\end{tabular} (\parencite{ICAO9309} 3.6.A)
 
 The name "Térèsa Cañón" would become CANXXON<<TERESA in the MRZ. The ñ is
 encoded in the MRZ, while no distinction is made of the é or è. Likewise, the
@@ -88,8 +90,8 @@ permitted. Likewise for Щ; this is SHCH, except in Bulgarian, where it is SHT.
 For example, the Arabic name {\arfont ابو بكر محمد بن زكريا الرازي} would be
 rendered in the MRZ as ABW<BKR<MXHMD<<BN<ZKRYA<ALRAZY.
 
-Although the name looks almost incomprehensible to a human, the weird encoding
-actually allows the one-to-one mapping between the MRZ and the original Arabic
-name. See more examples in the figure below:
+While the name looks incomprehensible to a human, the encoding permits the
+one-to-one mapping between the MRZ and the original Arabic name. See more
+examples in the figure below:
 
 \includegraphics{subtex/9309.3-appendix-b.5.9.png}
