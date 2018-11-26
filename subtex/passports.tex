@@ -2,7 +2,7 @@
 
 The protocol governing machine-readable travel documents (MRTD) is Document
 9309, issued by the International Civil Aviation Organization
-\parencite{ICAO9309}. These standards define the common form that all passports
+\parencite{icao9309}. These standards define the common form that all passports
 must take to ensure interoperability. Since all states must operate on a shared
 standard, the diplomatic community has forged a compromise between cultural
 diversity and international security; the 9309 standard provides sufficient
@@ -37,7 +37,7 @@ mark dropped; some characters, however, do have special encodings to losslessly
 transliterate the character. The document provides a more extensive scheme for
 the Cyrilic and Arabic scripts, which allows nearly lossless recovery of the
 original form from the MRZ content. They even provide a sample Python program
-for converting from the MRZ name to Unicode Arabic (\parencite{ICAO9309}
+for converting from the MRZ name to Unicode Arabic (\parencite{icao9309}
 (3.B.7.1).
 
 \subsubsection{Latin}
@@ -66,7 +66,7 @@ characters simply have the mark dropped:
 00DF & ß & double S (Germany) & SS \\
 0132 & Ĳ & ligature IJ (Netherlands) & IJ \\
 0152 & Œ & ligature OE & OE \\
-\end{tabular} (\parencite{ICAO9309} 3.6.A)
+\end{tabular} (\parencite{icao9309} 3.6.A)
 
 The name "Térèsa Cañón" would become CANXXON<<TERESA in the MRZ. The ñ is
 encoded in the MRZ, while no distinction is made of the é or è. Likewise, the
