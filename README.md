@@ -1,28 +1,15 @@
-# OUR NAMES IN THE COMPUTING AGE 
+# LEGAL RESTRICTIONS ON NAMING: ADMINISTRATIVE CONVENIENCE AND LINGUISTIC POLITICS
+
+This paper examines naming practices in several countries from a sociolinguistic
+perspective. Although naming is universally held to be the prerogative of a
+child's parents \parencite{alford87}, most states abridge this right to some
+extent. In the case of "bizarre" names like "Adolf Hitler" and "Ghoul Nipple"
+\parencite{larson11}, overruling parental choice is a clear-cut measure to
+protect child welfare. However, many policies are instituted for more subtle
+aims, including bureaucratic efficiency and linguistic policy. We will compare
+naming laws in four jurisdictions, namely California, Lithuania, Iceland, and
+the People's Republic of China. We observe that the rationale and methods for
+restricting names are influenced by the country's official language policies and
+status of the languages themselves.
 
 Please see `thesis.pdf` for latest version.
-
-You'll find many bizarre anecdotes on the internet in the "weird news" sections
-of a person's name "misbehaving" vis-à-vis its digital representation in a
-computerized database. So far I have found detailed information for the
-following case studies:
-
-1. California's ban on diacritical marks in names, which I discussed.
-2. A Hawaiian woman whose 35-letter surname drove her on a years-long
-   crusade to have her full name included on her drivers' license
-3. A Chinese woman whose name includes the uncommon character '𩧢' which is not
-   recognized by the Chinese government's database systems
-
-I plan to dredge the internet for more examples like this.
-
-The stories are what have prompted my research but clearly they do not justify
-it. The reason such situations matter is because names matter deeply on both a
-personal and cultural level; it forms a part of our identiy, or better, an
-expression of our identity. The first part of the paper will actually be about
-the different functions that a name can play. So far I have found a two-way
-distinction between reference and symbol.
-
-A name has a reference function when it selects some individual in the world. To
-select John, you find the (relatively) unique person in the world named John;
-John stands for a larger complex of physical and personality traits, the full
-person.
