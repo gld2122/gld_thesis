@@ -10,7 +10,7 @@ thesis.pdf: thesis.tex thesis.sty references.bib ./subtex/*
 .PHONY: clean fullClean
 
 clean:
-	rm thesis.{aux,bbl,bcf,blg,log,run.xml,toc}
+	rm -f thesis.{aux,bbl,bcf,blg,log,run.xml,toc}
 
-fullClean: texClean
-	rm thesis.pdf
+fullClean: clean
+	rm -f thesis.pdf
