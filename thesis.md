@@ -261,9 +261,7 @@ community in the territory):
 > principles of the constitution; and in the mean time shall be
 > maintained and protected in the free enjoyment of their liberty and
 > property, and secured in the free exercise of their religion without
-> restriction.
->
-> 502em () =0pt =0
+> restriction. [@guadalupe]
 
 Enjoying \"all the rights of citizens of the United States\" did not
 turn out to include protection of Spanish. Although the original state
@@ -303,9 +301,7 @@ grants enforcement powers to the state government:
 > all steps necessary to insure that the role of English as the common
 > language of the State of California is preserved and enhanced. The
 > Legislature shall make no law which diminishes or ignores the role of
-> English as the common language of the State of California.
->
-> 502em () =0pt =0
+> English as the common language of the State of California. [@ca-const]
 
 Diacritical marks on birth certificates
 ---------------------------------------
@@ -374,7 +370,7 @@ risks are too great to justify the bill:
 > federal government records is a difficult and expensive proposition.
 > This bill would create inconsistencies in vital records and require
 > significant state funds to replace or modify existing registration
-> systems.\" 502em () =0pt =0
+> systems.\" [@veto]
 
 Remarks
 -------
