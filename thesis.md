@@ -11,12 +11,12 @@ some extent. In case of \"bizarre\" names like \"Adolf Hitler\" and
 measure protecting child welfare. Other policies aim at controlling the
 content of names to increase bureaucratic efficiency, implement
 linguistic policies, or support other state goals. We will compare the
-naming laws interaction with linguistic policy in four jurisdictions:
+naming laws' interaction with linguistic policy in four jurisdictions:
 the prohibition of diacritics on birth certificates in California, case
-and spelling assimilation in Latvia, the Personal Names List Iceland,
+and spelling assimilation in Latvia, the Personal Names List in Iceland,
 and character restrictions in People's Republic of China. We observe
 that the methods and justifications for restricting names are influenced
-by the country's official language policies and that individual's names
+by the country's official language policies and that individuals' names
 are frequently used as a venue for implementing or preventing linguistic
 changes.
 
